@@ -112,7 +112,12 @@ buttons = [
         InlineKeyboardButton(text="😳ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs🤪", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="💫𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓💫", url=f"https://t.me/TG_MUSIC_ROBOT?startgroup=true",
+        InlineKeyboardButton(
+            text="💫𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓💫",
+            url=f"https://t.me/TG_MUSIC_ROBOT?startgroup=true",
+        ),
+    ],
+    [
         InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
