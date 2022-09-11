@@ -11,8 +11,8 @@ from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatche
 
 
 PHOTO = [
-    "https://telegra.ph/file/c3d745fe632ed0a918719.jpg",
-    "https://telegra.ph/file/c3d745fe632ed0a918719.jpg",
+    "https://telegra.ph/file/b2b4fee33e6c7d2a5651a.jpg",
+    "https://telegra.ph/file/b2b4fee33e6c7d2a5651a.jpg",
 ]
 
 
@@ -26,7 +26,7 @@ async def awake(event):
     BUTTON = [
         [
             Button.url("ʜᴇʟᴘ​", f"https://t.me/{dispatcher.bot.username}?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", f"https://t.me/{SUPPORT_CHAT}"),
+            Button.url("sᴜᴘᴘᴏʀᴛ​", f"https://t.me/vip_dunia"),
         ]
     ]
     ran = random.choice(PHOTO)
