@@ -69,7 +69,7 @@ RUN git clone https://github.com/AnonymousR1025/FallenRobot /root/FallenRobot
 WORKDIR /root/FallenRobot
 
 #Copy config file to /root/FallenRobot/FallenRobot
-COPY ./FallenRobot/sample_config.py ./FallenRobot/config.py* /root/FallenRobot/FallenRobot/
+COPY ./FallenRobot/config.py* /root/FallenRobot/FallenRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
