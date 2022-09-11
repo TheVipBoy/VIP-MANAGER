@@ -16,7 +16,7 @@ async def repo(client, message):
         photo=ANON,
         caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [ᴍʀ ʟᴜᴄᴋʏ](tg://user?id=1808943146)
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [THE VIP BOY](tg://user?id=1808943146)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -32,7 +32,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• REPO •",
-                        url="https://github.com/VIP-MANAGER",
+                        url="https://github.com/Gandi098/VIP-MANAGER",
                     ),
                 ]
             ]
