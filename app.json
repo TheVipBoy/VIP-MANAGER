@@ -1,7 +1,7 @@
 {
-      "name": "Fallen Robot",
-      "description": "Telegram Group Management Bot.",
-      "logo": "https://telegra.ph/file/72e135da30a1a349f2844.jpg",
+      "name": "𝐕𝐢𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐫",
+      "description": "💫𝐇𝐢😍... 𝐈'𝐚𝐦 𝐓𝐡𝐞 𝐌𝐨𝐬𝐭 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭 🥂 𝐈𝐧 𝐓𝐆💥.",
+      "logo": "https://telegra.ph/file/b2b4fee33e6c7d2a5651a.jpg",
       "keywords": [
          "telegram",
          "sexy",
@@ -9,7 +9,7 @@
          "manager",
          "Fallen"
       ],   
-   "repository": "https://github.com/AnonymousBoy1025/FallenRobot",
+   "repository": "https://github.com/Gandi098/VIP-MANAGER",
    "addons": [
       {
          "options": {
@@ -20,46 +20,46 @@
    ],
    "env": {
       "TOKEN": {
-         "description": "Get bot token from @BotFather on TG",
+         "description": "𝐆𝐞𝐭 𝐛𝐨𝐭 𝐭𝐨𝐤𝐞𝐧 𝐟𝐫𝐨𝐦 @Botfather 𝐨𝐧 𝐓𝐆",
          "required": true,
          "value": ""
       },
       "API_ID": {
-         "description": "Get this value from my.telegram.org/apps.",
+         "description": "𝐆𝐞𝐭 𝐭𝐡𝐢𝐬 𝐯𝐚𝐥𝐮𝐞 𝐟𝐫𝐨𝐦  my.telegram.org/apps.",
          "required": true,
          "value": ""
       },
       "API_HASH": {
-         "description": "Get this value from my.telegram.org/apps.",
+         "description": "𝐆𝐞𝐭 𝐭𝐡𝐢𝐬 𝐯𝐚𝐥𝐮𝐞 𝐟𝐫𝐨𝐦  my.telegram.org/apps.",
          "required": true,
          "value": ""
       },    
       "SQLALCHEMY_DATABASE_URI": {
-         "description": "Your postgres sql db, Leave this field empty if you don't have one.",
+         "description": "𝐘𝐨𝐮𝐫 𝐩𝐨𝐬𝐭𝐠𝐫𝐞𝐬 𝐬𝐪𝐥 𝐝𝐛, 𝐋𝐞𝐚𝐯𝐞 𝐭𝐡𝐢𝐬 𝐟𝐢𝐞𝐥𝐝 𝐞𝐦𝐩𝐭𝐲 𝐢𝐟 𝐲𝐨𝐮 𝐝𝐨𝐧'𝐭 𝐡𝐚𝐯𝐞 𝐨𝐧𝐞.",
          "required": false,
          "value": ""
       },      
       "OWNER_ID": {
-         "description": "Your user ID as an integer.",
+         "description": "𝐘𝐨𝐮𝐫 𝐮𝐬𝐞𝐫 𝐈𝐃 𝐚𝐬 𝐚𝐧 𝐢𝐧𝐭𝐞𝐠𝐞𝐫.",
          "required": true,
          "value": "1356469075"
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+        "description": "𝐘𝐨𝐮𝐫 𝐇𝐞𝐫𝐨𝐤𝐮 𝐀𝐏𝐈 𝐤𝐞𝐲, 𝐠𝐞𝐭 𝐢𝐭 𝐟𝐫𝐨𝐦 'https://dashboard.heroku.com/account'",
         "value": ""
       },
       "HEROKU_APP_NAME": {
-        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
+        "description": "𝐄𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐇𝐞𝐫𝐨𝐤𝐮 𝐚𝐩𝐩 𝐧𝐚𝐦𝐞 𝐡𝐞𝐫𝐞 (𝐌𝐮𝐬𝐭 𝐚𝐧 𝐞𝐱𝐚𝐜𝐭 𝐬𝐚𝐦𝐞 𝐧𝐚𝐦𝐞 𝐰𝐢𝐭𝐡 𝐲𝐨𝐮𝐫 𝐢𝐧𝐩𝐮𝐭 𝐚𝐛𝐨𝐯𝐞).",
         "required": false
       },
       "OWNER_USERNAME": {
-         "description": "Your username without the @",
-         "value": "anonymous_was_bot"
+         "description": "𝐘𝐨𝐮𝐫 𝐮𝐬𝐞𝐫𝐧𝐚𝐦𝐞 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐭𝐡𝐞@",
+         "value": "THE_VIP_BOY"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
          "required": true,
-         "value": "DevilsHeavenMF"
+         "value": "VIP_DUNIA"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -94,7 +94,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Fallen Support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1356469075"
+         "value": ""
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -170,7 +170,7 @@
       "START_IMG": {
       "description": "Telegraph link of the image which will be shown at start command.",
          "required": false,
-         "value": ""
+         "value": "https://telegra.ph/file/b2b4fee33e6c7d2a5651a.jpg"
    },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
