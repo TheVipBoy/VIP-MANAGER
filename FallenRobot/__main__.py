@@ -105,7 +105,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="🙈𝐀𝐃𝐃 𝐊𝐑𝐎 𝐉𝐋𝐃𝐈 𝐒𝐄😂",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            url=f"https://t.me/TG_MANAGER_ROBOT?startgroup=true",
         ),
     ],
     [
