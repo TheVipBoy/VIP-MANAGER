@@ -113,7 +113,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="💫𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓💫", url=f"https://t.me/TG_MUSIC_ROBOT?startgroup=true",
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="✨𝐎𝐅𝐅𝐈𝐂𝐄✨", url=f"https://t.me/vip_dunia",
     ],
     
 ]
