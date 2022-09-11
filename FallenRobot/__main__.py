@@ -79,51 +79,55 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*๏ ᴛʜɪs ɪs* {} !
+*๏ Hey Dost🔥 ᴛʜɪs ɪs* {} !
 ➻ *ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ*
 *ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ*
 ───────────────
  ➻ *ᴜsᴇʀs:* {}
  ➻ *chats:* {}
 ───────────────
+➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+──────────────────
+*๏ 𝐘𝐄 𝐁𝐎𝐓 𝐁𝐇𝐈 𝐃𝐄𝐊𝐇 𝐋𝐎 𝐘𝐑 𝐁𝐎𝐇𝐎𝐓 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐇𝐀𝐈🙈👇👇
+
+┏━━━━━━━━━━━━━━━━━━┓
+┣★ @MISS_ROSE_ROBOT 🌹
+┣★ @TG_MANAGER_ROBOT 💫
+┣★ @THE_KANISHKA_BOT 💥
+┣★ *𝐉𝐎𝐈𝐍➪* @VIP_DUNIA 💞
+┣★ *𝐌𝐔𝐒𝐈𝐂 𝐔𝐒𝐄* ➪ /mstart
+┣★ 𝐄𝐍𝐉𝐎𝐘 𝐊𝐑𝐎 😂💃💃 
+┗━━━━━━━━━━━━━━━━━━┛.*
 *๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ.*
 """
 
 buttons = [
     [
-        InlineKeyboardButton("🎧", callback_data="Music_"),
-        InlineKeyboardButton("🛡️", callback_data="source_"),
-        InlineKeyboardButton("🖤", callback_data="fallen_"),
-        InlineKeyboardButton("🐥", callback_data="fallen_support"),
-    ],
-    [
         InlineKeyboardButton(
-            text=" ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ ",
-            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
+            text="🙈𝐀𝐃𝐃 𝐊𝐑𝐎 𝐉𝐋𝐃𝐈 𝐒𝐄😂",
+            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="⍟ ꜱᴜᴘᴘᴏʀᴛ ⍟", url=f"https://t.me/lobe_ju"),
-        InlineKeyboardButton(text="⍟ ᴜᴘᴅᴀᴛᴇꜱ ⍟", url=f"https://t.me/oye_golgappu"),
+        InlineKeyboardButton(text="😳ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs🤪", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="••• ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs •••", callback_data="help_back"),
+        InlineKeyboardButton(text="💫❄ ᴀʙᴏᴜᴛ ❄💫", callback_data="fallen_"),
+        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+    ],
+    [
+        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 HELP_STRINGS = f"""
 *» {dispatcher.bot.first_name} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
 
-➻ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.
-➻ /donate : sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.
-➻ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ."""
+➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.
+➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
+  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
+  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ."""
 
-DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
-  ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
-
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](https://t.me/cute_boy701) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/terayaarhoomai) ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
-
-PM_IMG = ("https://te.legra.ph/file/64e851c780f48a928f463.jpg",)
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -422,18 +426,18 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/lobe_ju"
+                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/vip_dunia"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/oye_golgappu"
+                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/VIP_CREATORS"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="tG://user?id=1960744931"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="tG://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/MRLUCKYXD"
+                            text="ɢɪᴛʜᴜʙ", url="https://t.me/vip_creators"
                         ),
                     ],
                     [
@@ -870,9 +874,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1356469075 and DONATION_LINK:
+        if OWNER_ID != 1808943146 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ʟᴜᴄᴋʏ](https://t.me/cute_boy701)."
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ʟᴜᴄᴋʏ](https://t.me/the_vip_boy)."
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
@@ -921,7 +925,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/bd0a73ee006abde983a75.mp4",
+                animation="https://telegra.ph/file/b2b4fee33e6c7d2a5651a.jpg",
                 caption=f"""
 🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
 
