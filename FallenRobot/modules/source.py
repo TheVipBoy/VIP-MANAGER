@@ -32,7 +32,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• REPO •",
-                        url="https://github.com/Gandi098/VIP-MANAGER",
+                        url="https://github.com/TheVipBoy/VIP-MANAGER",
                     ),
                 ]
             ]
